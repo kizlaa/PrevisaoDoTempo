@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Previsão do Tempo</string>
+
+    <string name="menu_sobre">Sobre</string>
+
+    <string name="tab_previsao">Previsão</string>
+    <string name="tab_mapa">Mapa</string>
+
+    <string name="sobre_titulo">Sobre</string>
+    <string name="sobre_nome_label">Nome:</string>
+    <string name="sobre_ra_label">RA:</string>
+    <string name="sobre_curso_label">Curso:</string>
+    <string name="sobre_nome_valor">Lucas</string>
+    <string name="sobre_ra_valor">RA do Lucas</string>
+    <string name="sobre_curso_valor">Programação de Dispositivos Móveis</string>
+
+    <string name="splash_content_desc">Logo da aplicação</string>
+
+    <string name="label_max">Máx</string>
+    <string name="label_min">Mín</string>
+
+    <string name="fab_qr_desc">Trocar cidade via QR Code</string>
+
+    <string name="cidade_padrao">Maringá, PR</string>
+
+    <string name="google_maps_key">__PUT_YOUR_KEY_HERE__</string>
+
+    <string name="erro_api">Não foi possível carregar os dados de clima.</string>
+    <string name="carregando">Carregando…</string>
+    <string name="mapa_fallback">Mapa indisponível. Configure a chave de API do Google Maps para visualizar o mapa.</string>
+</resources>
