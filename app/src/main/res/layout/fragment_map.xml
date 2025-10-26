@@ -1,21 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/map_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".fragments.MapFragment">
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView"
+    <ImageView
+        android:id="@+id/imgMapa"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:src="@drawable/mapa_maringa"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name" />
 
-    <TextView
-        android:id="@+id/mapFallback"
-        android:visibility="gone"
-        android:padding="16dp"
-        android:text="@string/mapa_fallback"
-        android:background="#66000000"
-        android:textColor="@color/white"
-        android:layout_gravity="bottom"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/imgMarker"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_marker"
+        android:tint="#D32F2F"
+        android:layout_gravity="center" />
+
 </FrameLayout>
