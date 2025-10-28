@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                     String city = result.getContents().trim();
                     if (!city.isEmpty()) {
                         PrefHelper.setCity(this, city);
-                        // Notifica fragments
+
                         Intent i = new Intent(Constants.ACTION_CITY_CHANGED);
                         LocalBroadcastManager.getInstance(this).sendBroadcast(i);
                     }
